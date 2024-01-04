@@ -1,4 +1,4 @@
-!pip install -r https://raw.githubusercontent.com/scully-jack/powerinfo/master/requirements.txt
+pip install -r https://raw.githubusercontent.com/scully-jack/powerinfo/master/requirements.txt
 from snowflake.sqlalchemy import URL
 from sqlalchemy import create_engine
 from sqlalchemy import delete
