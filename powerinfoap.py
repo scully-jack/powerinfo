@@ -1,5 +1,4 @@
-import snowflake
-import sqlalchemy
+import snowflake-sqlalchemy
 import numpy as np
 import pandas as pd
 from snowflake.connector.pandas_tools import write_pandas
