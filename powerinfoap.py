@@ -1,7 +1,5 @@
-!pip install -r https://raw.github.com/scully-jack/powerinfo/master/requirements.txt
-from snowflake.sqlalchemy import URL
-from sqlalchemy import create_engine
-from sqlalchemy import delete
+import snowflake-sqlalchemy
+import snowflake
 import numpy as np
 import pandas as pd
 from snowflake.connector.pandas_tools import write_pandas
