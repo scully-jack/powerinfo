@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-python3 -m venv env
-source env/bin/activate
-pip install snowflake-sqlalchemy
-pip install numpy
-pip install pandas
-pip install snowflake
+!pip install -r https://raw.githubusercontent.com/scull-jack/powerinfo/master/requirements.txt
 from snowflake.sqlalchemy import URL
 from sqlalchemy import create_engine
 from sqlalchemy import delete
