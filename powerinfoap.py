@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-pip install git+https://github.com/snowflakedb/snowflake-sqlalchemy/tree/main/.github
+npm install git+https://github.com/snowflakedb/snowflake-sqlalchemy/tree/main/.github
 pip install numpy
 pip install pandas
 pip install snowflake
